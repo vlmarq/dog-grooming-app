@@ -1,0 +1,35 @@
+.logo {
+	height: 70px;
+	width: auto;
+}
+
+.navbar-nav {
+	justify-content: flex-end;
+}
+
+.active {
+	color: #b2574e !important;
+	font-weight: 500 !important;
+}
+
+@media (max-width: 768px) {
+	.navbar-toggler {
+		background-color: #b2574e;
+	}
+
+	.collapsing {
+		transition: all 1s ease;
+	}
+
+	.navbar-nav {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		position: absolute;
+		background: #fff;
+		height: 100vh;
+		width: 100vw;
+		left: 0;
+		right: 0;
+	}
+}

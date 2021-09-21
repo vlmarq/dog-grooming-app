@@ -1,0 +1,48 @@
+.jumbotron {
+	width: 100vw;
+	height: calc(100vh - 164px);
+}
+
+.jumbotron__img {
+	background: url("../images/dog-grooming-optimized.jpg") no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.jumbotron__header {
+	letter-spacing: 3px;
+	font-weight: 400;
+	color: #b2574e;
+}
+
+.jumbotron__caption {
+	line-height: 2rem;
+}
+
+.jumbotron__bookNowSection {
+	background-color: #b2574e;
+}
+
+.jumbotron__btn {
+	width: 250px;
+	letter-spacing: 0.5px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.jumbotron__btn:hover {
+	filter: invert(1);
+	transition: all 0.5s;
+}
+
+.jumbotron__btn:active {
+	transform: translateY(5px);
+}
+
+@media (max-width: 425px) {
+	.jumbotron {
+		height: 100vh;
+		flex-direction: column;
+		padding-top: 20px;
+	}
+}
