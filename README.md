@@ -7,4 +7,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * 🐾 React-Bootstrap
 <br/>
 <br/>
-<img width="1435" alt="zen pet spa" src="https://user-images.githubusercontent.com/5326215/134099462-fa891241-5034-4b61-961b-dfe7dd0c3190.png">
+
+<img width="721" alt="zen pet spa" src="https://user-images.githubusercontent.com/5326215/134099992-d17ff4a3-f2b9-4937-a593-cdc53cc2a7a6.png">
