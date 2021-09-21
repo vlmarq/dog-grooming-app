@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-// import { Link } from "react-router-dom";
 import Logo from "../images/zen-pet-spa.svg";
 import "../styles/Header.css";
 import { LinkContainer } from "react-router-bootstrap";

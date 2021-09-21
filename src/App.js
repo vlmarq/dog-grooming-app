@@ -4,10 +4,10 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./styles/App.css";
 import Home from "./views/Home";
-import Services from "./views/Home";
-import Appointment from "./views/Home";
-import Contact from "./views/Home";
-import Product from "./views/Home";
+import Services from "./views/Services";
+import Appointment from "./views/Appointment";
+import Contact from "./views/Contact";
+import Product from "./views/Product";
 
 function App() {
 	return (
@@ -15,11 +15,21 @@ function App() {
 			<BrowserRouter>
 				<Header />
 				<Switch>
-					<Route path="/services" component={Services} />
-					<Route path="/appointments" component={Appointment} />
-					<Route path="/contact" component={Contact} />
-					<Route path="/products" component={Product} />
-					<Route path="/" component={Home} />
+					<Route exact path="/services">
+						<Services />
+					</Route>
+					<Route exact path="/appointments">
+						<Appointment />
+					</Route>
+					<Route exact path="/contact">
+						<Contact />
+					</Route>
+					<Route exact path="/products">
+						<Product />
+					</Route>
+					<Route exact path="/">
+						<Home />
+					</Route>
 					<Route
 						render={function () {
 							return <h1>Not found</h1>;
